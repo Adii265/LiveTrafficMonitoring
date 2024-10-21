@@ -37,7 +37,11 @@ This project uses **YOLOv3** to detect and count vehicles from live traffic came
 
 1. **Run the app**:
    ```bash
-   streamlit run app.py
+   !wget -q -O - ipv4.icanhazip.com
+   ```
+
+    ```bash
+   !streamlit run app.py & npx localtunnel --port 8501
    ```
 
 2. **Select a city** from the dropdown to monitor traffic at that location.
