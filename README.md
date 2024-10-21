@@ -3,6 +3,7 @@ Here’s a sample **README.md** file for your **Live Traffic Monitoring System**
 ---
 
 # Live Traffic Monitoring System
+![Traffic Monitoring](App.PNG)
 
 This project uses **YOLOv3** to detect and count vehicles from live traffic camera feeds. It fetches images dynamically from specific traffic locations, analyzes the data, and displays the vehicle counts along with bounding boxes for visual representation.
 
